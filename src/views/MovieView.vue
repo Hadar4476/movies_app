@@ -1,5 +1,5 @@
 <template>
-  <div>Homepage</div>
+  <div>Movie</div>
 </template>
 
 <script setup lang="ts"></script>
