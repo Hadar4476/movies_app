@@ -6,7 +6,7 @@ class SearchService extends ItemService {
     super("search");
   }
 
-  searchMovie(config) {
+  searchMovie(config = {}) {
     return super.get("movie", config);
   }
 }

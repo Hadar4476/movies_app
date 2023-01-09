@@ -6,15 +6,15 @@ class MovieService extends ItemService {
     super("movie");
   }
 
-  getPopular(config) {
+  getPopular(config = {}) {
     return super.get("popular", config);
   }
 
-  getMovie(id) {
+  getMovie(id: number) {
     return super.get(`${id}`);
   }
 
-  getCredits(id) {
+  getCast(id: number) {
     return super.get(`${id}/credits`);
   }
 }
